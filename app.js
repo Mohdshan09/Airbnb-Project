@@ -111,7 +111,6 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("/", listings);
 app.use("/listings", listings);
 app.use("/", category);
 app.use("/listings/:id/reviews", reviews);
