@@ -65,7 +65,7 @@ app.listen(port, () => {
 
 //Mongostore
 const store = MongoStore.create({
-  mongoUrl: dbUrl,
+  mongoUrl: process.env.ATLAS_DB_URL,
   crypto: {
     secret: process.env.SECRET,
   },
