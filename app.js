@@ -111,22 +111,6 @@ app.use((req, res, next) => {
   next();
 });
 
-// DemoUser
-app.get("/demouser", async (req, res) => {
-  let fakeUser = new User({
-    email: "ajay223@gmail.com",
-    username: "Ajay",
-  });
-
-  let user = await User.register(fakeUser, "Ajay009");
-  res.send(user);
-});
-
-// app.get("/", (req, res) => {
-//   res.send("Hi");
-// });
-// router middlewares
-
 app.use("/listings", listings);
 app.use("/", category);
 app.use("/listings/:id/reviews", reviews);
@@ -143,17 +127,3 @@ app.use((err, req, res, next) => {
 app.all("*", (req, res, next) => {
   next(new ExpressError(404, "Page not found!"));
 });
-
-// app.get("/test_listing", async (req, res) => {
-//   let sampleListing = new listing({
-//     title: "My new Villa",
-//     description: "A beautiful lake with a boat",
-//     price: 1500,
-//     location: "Calangute Goa",
-//     country: "India",
-//   });
-
-//   await sampleListing.save();
-//   console.log("Sample was saved");
-//   res.send("Saved successfully");
-// });
