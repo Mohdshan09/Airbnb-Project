@@ -111,10 +111,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get("/", (req, res) => {
-  res.send("Server started successfully !");
-});
-
+app.use("/", listings);
 app.use("/listings", listings);
 app.use("/", category);
 app.use("/listings/:id/reviews", reviews);
