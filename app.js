@@ -58,7 +58,7 @@ app.use(express.static(path.join(__dirname, "/public")));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-let port = 8080;
+let port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log(`sever is running on ${port}.`);
 });
