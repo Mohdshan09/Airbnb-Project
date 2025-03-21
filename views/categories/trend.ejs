@@ -1,0 +1,26 @@
+<% layout('/layouts/boilerplate') -%>
+<h2>Trends</h2>
+
+<div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+  <%for(let list of TrendProperties) {%>
+  <a href="/listings/<%=list._id%>" class="listing-link">
+    <!-- Bootstrap Card -->
+    <div class="card listing-card col mt-2">
+      <img
+        src="<%= list.image.url %>"
+        class="card-img-top"
+        alt="list-image"
+        style="height: 18rem"
+      />
+      <div class="card-img-overlay"></div>
+      <div class="card-body">
+        <p class="card-text">
+          <b><%= list.title %></b> <br />
+          &#8377; <%= list.price.toLocaleString("en-IN")%>/night
+          <i class="taxInfo">&nbsp;+18% GST</i>
+        </p>
+      </div>
+    </div>
+  </a>
+  <% } %>
+</div>

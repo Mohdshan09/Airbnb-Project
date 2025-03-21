@@ -1,0 +1,136 @@
+body {
+  background-color: #fff;
+  color: #121212;
+  font-family: "Poppins", serif !important;
+}
+
+.navbar {
+  height: 5rem;
+  background-color: #fff;
+}
+
+.collapse {
+  height: 5rem;
+  background-color: #fff;
+}
+
+.fa-airbnb {
+  color: #fe424d;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #121212 !important;
+  margin-left: 2rem;
+}
+
+#font {
+  position: relative;
+  bottom: 6px;
+  left: 5px;
+  font-weight: bold;
+  text-transform: lowercase !important;
+  font-size: small;
+  font-style: italic;
+}
+
+.links a {
+  text-decoration: none;
+  color: #121212;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: space-evenly;
+  height: 23vh;
+  background-color: rgba(128, 128, 128, 0.206);
+  flex-wrap: wrap;
+  text-align: center;
+  position: relative;
+  top: 300px;
+}
+
+.social {
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.social i {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.links {
+  width: 100%;
+}
+
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover;
+  box-shadow: rgba(43, 43, 43, 0.2) 0px 8px 24px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-text {
+  font-weight: 400 !important;
+}
+
+.listing-link {
+  text-decoration: none;
+}
+
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: #fff;
+  color: black;
+}
+
+input[type="text"] {
+  padding: 10px;
+}
+
+.add-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.add-btn:hover {
+  background-color: #fe424fc4 !important;
+}
+
+.show-img {
+  height: 50vh;
+}
+
+.btns {
+  display: flex;
+}
+
+.myimg {
+  width: 25% !important;
+}
+
+#Map {
+  height: 100px;
+  width: 100px;
+}
