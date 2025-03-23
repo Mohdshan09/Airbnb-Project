@@ -1,6 +1,9 @@
 🏡 Airbnb Clone (MERN Stack)
-Project Link: https://airbnb-project-jzw8.onrender.com/listings
-Note: Don't remove /listings it is by default my project's home page
+
+
+
+   Project Link: https://airbnb-project-jzw8.onrender.com/listings
+   Note: Don't remove /listings it is by default my project's home page
 
 🚀 Overview
 This is a full-stack Airbnb clone built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to list, browse, and book properties with secure authentication using passport-local mongoose.
