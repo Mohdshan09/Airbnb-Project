@@ -32,7 +32,7 @@ Image Upload: Cloudinary
 sh
 Copy
 Edit
-git clone https://github.com/yourusername/airbnb-clone.git
+git clone https://github.com/Mohdshan09/Airbnb-Project.git
 cd airbnb-clone
 2️⃣ Install Dependencies
 Backend
@@ -77,9 +77,6 @@ npm start
 
 📌 Future Improvements
 ✅ Google OAuth authentication
-
-✅ Review & rating system
-
 ✅ Admin dashboard for managing listings
 
 👨‍💻 Author
