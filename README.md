@@ -17,7 +17,7 @@ This is a full-stack Airbnb clone built using the MERN stack (MongoDB, Express.j
 🔥 Responsive UI (Built with Tailwind CSS for a modern look)
 
 🛠 Tech Stack
-Frontend: React.js, Tailwind CSS
+Frontend: Bootstrap, CSS
 
 Backend: Node.js, Express.js
 
