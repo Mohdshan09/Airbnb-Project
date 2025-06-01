@@ -1,6 +1,6 @@
 🏡 Airbnb Clone (MERN Stack)
 
- 🔗Project Link: https://airbnb-project-jzw8.onrender.com/listings
+ 🔗Project Link: https://airbnb-project-ewm6.onrender.com/listings
  🗒️ Note: Don't remove /listings it is by default my project's home page
 
 🚀 Overview
